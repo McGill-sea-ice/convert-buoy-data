@@ -6,7 +6,7 @@ from decode import unpack_simba_v8_09_sbd, convertT2nc
 
 # defining the IMEI of the instrument
 # to create directories and filenames
-imei = "300534065720080"
+imei = "300340657110080"
 datapath = "/storage/common/buoy-data/get-buoy-data/" + imei + "/"
 path = "/storage/common/buoy-data/convert-buoy-data/"
 # last_access stores the time this script was last run
