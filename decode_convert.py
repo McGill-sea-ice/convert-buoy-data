@@ -8,7 +8,7 @@ from decode import unpack_simba_v8_09_sbd, convertT2nc
 # to create directories and filenames
 imei = "300534065720080"
 datapath = "/storage/common/buoy-data/get-buoy-data/" + imei + "/"
-path = "/storage/common/buoy-data/convert-buoy-data/decode_convert_" + imei + "/"
+path = "/storage/common/buoy-data/convert-buoy-data/"
 # last_access stores the time this script was last run
 last_access_path = path + "last_access"
 ncdatapath = path + imei + ".nc"
